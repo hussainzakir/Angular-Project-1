@@ -1,0 +1,40 @@
+<!-- navbar -->
+<nav class="navbar navbar-light " style="background-color: rgb(138, 228, 246);">
+    <div class="container">
+      <a class="navbar-brand" href="#">
+       Det-Tutorials
+      </a>
+    </div>
+  </nav>
+  <!-- login card -->
+  <div class="card" id="crd-gif">
+  <img src="assets\walk-2.gif" id="gif-img">
+  </div>
+  <div class="card" id="crd">
+    <div class="title" id="logintitle">Delta-Tutorials</div>
+  
+      <form id="formcontent" [formGroup]="loginform"  >
+          <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label" id="labels">Username or Email</label>
+            <input type="email" class="form-control" name="user" [(ngModel)]="user" id="inputbox" formControlName="email">
+            <span class="error" *ngIf="email?.invalid && email?.touched">email is invalid</span>
+                      
+          </div>
+  
+  
+          <div class="mb-3">
+            <label for="exampleInputPassword1" class="form-label" id="labels">Password</label>
+            <input type="password" class="form-control" name="pass" [(ngModel)]="password" id="inputbox"  formControlName="password">
+            
+            
+          </div>
+          <button type="submit" class="btn btn-outline-dark" (click)="btnlogin()" id="submitbtn"> Submit</button>
+        </form>
+  
+        <div class="register">
+          <div> <p></p></div>
+          <a id="googlesignin" href="https://myaccount.google.com/"><span><i class="bi bi-google"></i></span> Sign in with Google</a>
+          <p id="newAcc">new <a href="#" style="font-family:  monospacee;" routerLink="/registration"> create an account</a></p>   
+        </div>
+  </div>
+  

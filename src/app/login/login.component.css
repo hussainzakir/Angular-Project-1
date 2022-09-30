@@ -1,0 +1,78 @@
+#crd{
+    width: 25em;
+    height: 28em;
+    position: absolute;
+    left: 30%;
+    top: 20%;
+}
+#crd-gif{
+    width: 10em;
+    height: 30em;
+    position: absolute;
+    left: 10%;
+    top: 20%;
+    border: 0px solid white;
+}
+#gif-img{
+    
+    height: 500px;
+    width: 400px;
+}
+#logintitle{
+    font-size: 2em;
+    position: absolute;
+    top: 10%;
+    left: 28%;
+    font-family: 'Cedarville Cursive', cursive;
+    font-weight: bold;
+    
+}
+#formcontent{
+    margin-top: 30%;
+}
+#inputbox{
+    width: 350px;
+    height: 20px;
+    margin-left: 20px;
+    border-radius: 2px;
+    border: 0px solid white;
+    border-bottom: 1px solid gray;
+}
+#submitbtn{
+        margin-left: 85px;
+        width: 180px;
+        height: 30px;
+        border-radius: 20px;
+        text-align: center;
+        padding-bottom: 30px;
+        margin-top: 20px;
+}
+#labels{
+    margin-left: 20px;
+    margin-bottom: -10px;
+    font-family: monospace;
+    font-size: 14px;
+    color: gray;
+}
+#forgotpassword{
+    color: rgb(10, 162, 13);
+    font-size: 12px;
+    margin-top: -5px;
+    margin-left: 280px;
+}
+#googlesignin{
+    margin-left: 70px;
+    font-size: 15px;
+    font-family: 'Courier New', Courier, monospace;
+    color: black;
+    text-decoration: none;
+}
+#newAcc{
+    margin-left: 90px;
+    margin-top: 40px;
+}
+.error{
+    color: red;
+    margin-left: 20px;
+    font-size: 12px;
+}
